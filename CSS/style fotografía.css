@@ -1,0 +1,291 @@
+*{
+
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+    text-decoration: none;
+    
+    
+    
+    
+    }
+    
+    @font-face {
+        font-family: "Caprasimo" ;
+        src: url(../Resources/Fonts/Caprasimo-Regular.ttf);
+    }
+    
+    @font-face {
+        font-family: "Bebas" ;
+        src: url(../Resources/Fonts/Bebas_Neue/);
+    }
+
+
+.headerfotografía{
+
+    padding-top: 10px;
+    padding-bottom: 5px;
+
+}
+
+.logofotografia{
+
+    padding-top: 5px;
+    padding-bottom: 5px;
+
+}
+
+.titulosfotografia{
+
+
+    background-color: #753BBD;
+    height: 100px;
+    color: white;
+    text-transform: uppercase;
+    padding-top: 10px;
+    padding-bottom: 1px;
+    text-align: center;
+    font-family: "Caprasimo";
+
+}
+
+.titulosfotografia__h1{
+
+padding-top: 5px;
+
+
+}
+
+.titulosfotografía__h2{
+
+padding-top: 20px;
+
+}
+
+.barrafotografia{
+
+background-color: #61CDE9;
+padding: 5px 5px 5px 5px;
+color: #003594;
+text-transform: uppercase;
+text-align: center;
+font-family: "Caprasimo";
+
+
+}
+
+.botonesfotografia{
+
+height: 100px;
+display: flex;
+flex-direction: row;
+align-content: flex-end;
+align-items: center;
+
+
+}
+
+.botonesfotografia__inicio{
+
+text-shadow: 1px 1px 1px rgb(255, 255, 255);
+
+
+}
+
+.botonesfotografia__presentacion{
+
+
+text-shadow: 1px 1px 1px rgb(255, 255, 255);
+
+}
+
+.botonesfotografia__video{
+
+text-shadow: 1px 1px 1px rgb(255, 255, 255);
+
+}
+
+.botonesfotografia__contacto{
+
+text-shadow: 1px 1px 1px rgb(255, 255, 255);
+
+}
+
+a:hover{
+
+    background-color: #753BBD;
+    color: #61CDE9;
+    font-weight: bold;
+    padding: 15px;
+    
+}
+
+.grillafotografia{
+
+padding: 5px 5px 5px 5px;
+display: grid;
+grid-template-columns: 1fr;
+justify-content: center;
+justify-items: center;
+
+
+}
+
+.grillafotografia__img1{
+
+height: 200px;
+width: 350px;
+
+    
+}
+
+.grillafotografia__img2{
+
+height: 200px;
+width: 350px;
+
+
+}
+
+.grillafotografia__img3{
+
+height: 200px;
+width: 350px;
+
+
+}
+
+.grillafotografia__img4{
+
+height: 200px;
+width: 350px;
+
+}
+
+.grillafotografia__img5{
+
+height: 200px;
+width: 350px;
+
+
+}
+
+.grillafotografia__img6{
+
+height: 200px;
+width: 350px;
+
+
+}
+
+.grillafotografia__img7{
+
+height: 200px;
+width: 350px;
+
+}
+
+/* Responsive Fotografía*/
+
+@media (min-width:500px){
+
+.grillafotografia{
+
+display: grid;
+grid-template-columns: 1fr;
+padding-top: 20px;
+
+
+
+
+}
+
+.grillafotografia__img1{
+
+width: 800px;
+height:600px;
+
+}
+
+.grillafotografia__img2 {
+
+width: 800px;
+height: 600px;
+
+}
+
+.grillafotografia__img3{
+
+width: 800px;
+height: 600px;
+
+}
+
+.grillafotografia__img4{
+
+
+width: 800px;
+height: 600px;
+
+}
+
+.grillafotografia__img5{
+
+width: 800px;
+height: 600px;
+
+
+
+}
+
+.grillafotografia__img6{
+
+width: 800px;
+height: 600px;
+
+}
+
+.grillafotografia__img7{
+
+width: 800px;
+height: 600px;
+
+
+}
+
+
+.titulosfotografia{
+
+
+height: 200px;
+width: 1920px;
+
+}
+
+.titulosfotografia__h1{
+
+padding-top: 50px;
+
+
+}
+
+.barrafotografia{
+
+width: 1920px;
+display: flex;
+flex-direction: row;
+align-content: center;
+justify-content: space-around;
+
+
+
+}
+
+
+
+
+
+}
+
+
+

@@ -1,0 +1,26 @@
+Pagina: 
+
+Header: #003594
+
+Main:  #61CDE9
+
+Footer: #753BBD
+
+Aside: #DBAD60
+
+Logo: 
+
+Fondo: #61CDE9
+
+Isotipo: 
+
+Interno: #003594 
+Círculo: #753BBD
+
+Logotipo: 
+
+Comunicaciones:#753BBD 
+
+Córdoba: #003594
+
+

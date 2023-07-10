@@ -1,0 +1,259 @@
+*{
+
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+    text-decoration: none;
+   
+
+}
+
+@font-face {
+    font-family: "Caprasimo" ;
+    src: url(../Resources/Fonts/Caprasimo-Regular.ttf);
+}
+
+.header{
+
+background-color: #753BBD;
+text-transform: uppercase;
+padding-top: 10px;
+
+
+}
+
+.tituloprincipal{
+
+color: white;
+text-align: center;
+font-family: "Caprasimo";
+padding-top: 10px;
+padding-bottom: 10px;
+margin-top: 10px;
+
+}
+
+.barradenavegacion{
+
+background-color: #61CDE9;
+margin-top: 5px;
+padding: 10px 10px 10px 10px;
+color: #003594;
+text-transform: uppercase;
+
+}
+
+.botones{
+
+color:#003594;
+height: 200px;
+display: flex;
+flex-direction: column;
+justify-content: space-evenly;
+align-items: center;
+font-family: "Caprasimo";
+
+}
+
+
+.botones__presentacion{
+
+padding-top: 10px;
+padding-bottom: 10px;
+margin-top: 10px;
+margin-top: 10px;
+text-shadow: 1px 1px 1px rgb(255, 255, 255);
+
+}
+
+.botones__fotografía{
+
+padding-top: 10px;
+padding-bottom: 10px;
+margin-top: 10px;
+margin-top: 10px;
+text-shadow: 1px 1px 1px rgb(255, 255, 255);
+
+
+}
+
+.botones__video{
+
+padding-top: 10px;
+padding-bottom: 10px;
+margin-top: 10px;
+margin-top: 10px;
+text-shadow: 1px 1px 1px rgb(255, 255, 255);
+
+}
+
+.botones__contacto{
+
+padding-top: 10px;
+padding-bottom: 10px;
+margin-top: 10px;
+margin-top: 10px;
+text-shadow: 1px 1px 1px rgb(255, 255, 255);
+
+}
+
+a:hover{
+
+background-color: #753BBD;
+color: #61CDE9;
+font-weight: bold;
+padding: 15px;
+
+}
+
+.imagenes{
+
+grid-area: main;
+background-color: #003594;
+height: 330px;
+margin-top: 5px;
+display: grid;
+grid-template-columns: 1fr 1fr;
+grid-template-rows: 1fr 1fr;
+align-content: space-between;
+
+}
+
+img{
+
+height: 150px;
+width: 190px;
+padding-top: 5px;
+
+
+}
+
+#pie{
+
+background-color: #753BBD;
+text-align: center;
+color: white;
+text-transform: uppercase;
+
+
+}
+
+.formulario{
+
+
+background-color: #9c7bc4;
+height: 55px;
+display: flex;
+flex-direction: column;
+
+
+}
+
+input{
+
+padding-top: 5px;
+
+}
+
+/* Responsive Index */
+
+@media (min-width:500px){
+
+.header{
+
+    width: 1042px;
+
+
+}
+
+.barradenavegacion{
+
+width: 1042px;
+
+
+}
+
+.botones{
+
+display: flex;
+flex-direction: row;
+font-size: large;
+
+
+
+
+}
+
+
+.imagenes{
+
+width: 1063px;
+display: grid;
+grid-template-rows: 1fr;
+grid-template-columns: 1fr 1fr 1fr 1fr;
+justify-items: center;
+
+
+}
+
+#img1{
+
+height: 300px;
+width: 250px;
+padding-right: 10px;
+
+}
+
+#img2{
+
+height: 300px;
+width: 250px;
+padding-right: 10px;
+
+}
+
+#img3{
+
+height: 300px;
+width: 250px;
+padding-right: 10px;
+
+}
+
+#img4{
+
+height: 300px;
+width: 250px;
+padding-right: 10px;
+
+}
+
+.formulario {
+
+width: 1062px;
+
+}
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
