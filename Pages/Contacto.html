@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>😇Presentación</title>
+    <title>📧Contacto</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
   </head>
   <body>
@@ -29,7 +29,7 @@
                   <li class="nav_fotografía">
                     <a class="nav-link" href="./Fotografía.html">📸Fotografía</a>
                   </li>
-                  <li class="nav_video">
+                  <li class="nav_contacto">
                     <a class="nav-link" href="./Video.html">📹Video</a>
                   </li>
 
@@ -42,7 +42,41 @@
 
     </header>
 
-    <main></main>
+    <br>
+
+    <main>
+
+      <section>
+
+        <h2>Formulario de Contacto</h2>
+        <p>Si quieres contactarte conmigo puedes hacerlo a través de este formulario: </p>
+        <hr>
+        <form action="/enviar_formulario.php" method="POST">
+          <br>
+            <label for="nombre_apellido">Nombre y Apellido:</label>
+            <br>
+            <input type="text" id="nombre_apellido" name="nombre_apellido" required>
+            <br>
+            <label for="numero_celular">Número de Celular:</label>
+            <br>
+            <input type="tel" id="numero_celular" name="numero_celular" required>
+            <br>
+            <label for="mensaje">Mensaje:</label>
+            <br>
+            <textarea id="mensaje" name="mensaje" rows="4" required></textarea>
+            <br>
+            <input type="submit" value="Enviar">
+        </form>
+
+
+
+      </section>
+
+
+
+
+
+    </main>
 
     <footer></footer>
 
