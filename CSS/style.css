@@ -1,4 +1,77 @@
 @charset "UTF-8";
+h1 {
+  background-color: #003594;
+  color: white;
+  text-transform: uppercase;
+  text-align: center;
+  font-weight: bold;
+  padding: 18px 10px 10px 18px;
+  height: 70px; }
+
+.container-fluid {
+  background-color: #003594;
+  padding: 3px 3px 3px 3px;
+  margin-top: -10px; }
+
+.navbar-brand {
+  color: white;
+  text-transform: uppercase;
+  font-weight: bold; }
+
+.navbar-toggler {
+  background-color: white;
+  border-radius: 15px; }
+
+.navbar-nav {
+  display: flex;
+  flex-direction: column;
+  align-items: center; }
+
+.nav-link {
+  color: #f6f6f6;
+  text-transform: lowercase; }
+
+.nav-item {
+  background-color: #753BBD;
+  border-radius: 40px;
+  padding: 7px;
+  margin-bottom: 5px;
+  box-shadow: 2px 0px 4px #ffffff; }
+
+.nav_contacto {
+  background-color: #753BBD;
+  border-radius: 40px;
+  padding: 7px;
+  margin-bottom: 5px;
+  box-shadow: 2px 0px 4px #ffffff; }
+
+.quiensoy {
+  color: white;
+  text-transform: uppercase;
+  padding: 5px 5px 5px 5px;
+  height: 10px; }
+
+.conocimientos {
+  color: white;
+  text-transform: uppercase;
+  padding: 5px 5px 5px 5px;
+  height: 10px; }
+
+.experiencia {
+  color: white;
+  text-transform: uppercase;
+  padding: 5px 5px 5px 5px;
+  height: 10px; }
+
+.accordion-body {
+  background-color: #61CDE9; }
+
+.fondoimagenperfil {
+  background-color: #DBAD60;
+  height: 200px;
+  margin-top: 5px;
+  margin-bottom: 5px; }
+
 * {
   margin: 0;
   padding: 0; }
@@ -87,15 +160,15 @@ h1 {
   height: 10px; }
 
 #collapseOne {
-  background-color: #DBAD60;
+  background-color: #61CDE9;
   text-align: center; }
 
 #collapseTwo {
-  background-color: #DBAD60;
+  background-color: #61CDE9;
   text-align: center; }
 
 #collapseThree {
-  background-color: #DBAD60;
+  background-color: #61CDE9;
   text-align: center; }
 
 .card-header {

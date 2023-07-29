@@ -1,4 +1,6 @@
 @import "../scss/variables.scss";
+@import "../scss/presentación";
+
 
 *{
 
@@ -143,21 +145,21 @@ height: 10px;
 
 #collapseOne{
 
-background-color: $coloraside;
+background-color: $colormain;
 text-align: center;
 
 }
 
 #collapseTwo{
 
-background-color: $coloraside;
+background-color: $colormain;
 text-align: center;
 
 }
 
 #collapseThree{
 
-background-color: $coloraside;
+background-color: $colormain;
 text-align: center;
     
 }
