@@ -23,7 +23,7 @@ height: 70px;
 
 .container-fluid{
 
-background-color: $colormain;
+background-color: $colortitulo;
 padding: 3px 3px 3px 3px;
 margin-top: -10px;
 
@@ -32,7 +32,7 @@ margin-top: -10px;
 
 .navbar-brand{
 
-color:black;
+color:rgb(255, 255, 255);
 text-transform: uppercase;
 font-weight: bold;
 
@@ -58,7 +58,136 @@ align-items: center;
 
 .nav-link{
  
-    color: rgb(0, 0, 0);
+    color: rgb(246, 246, 246);
     text-transform: lowercase;
+
+}
+
+.nav_presentacion{
+
+background-color: $colorfooter;
+border-radius: 40px;
+padding: 7px;
+margin-bottom: 5px;
+box-shadow: 2px 0px 4px #ffffff;
+
+}
+
+.nav_fotografía{
+
+background-color: $colorfooter;
+border-radius: 40px;
+padding: 7px;
+margin-bottom: 5px;
+box-shadow: 2px 0px 4px #ffffff;
+
+}
+
+.nav_video{
+
+background-color: $colorfooter;
+border-radius: 40px;
+padding: 7px;
+margin-bottom: 5px;
+box-shadow: 2px 0px 4px #ffffff;
+
+}
+
+.nav-contacto{
+
+background-color: $colorfooter;
+border-radius: 40px;
+padding: 7px;
+box-shadow: 2px 0px 4px #ffffff;
+
+}
+
+.accordion-button{
+
+background-color: $colortitulo;
+display: flex;
+flex-direction: column;
+align-items: center;
+
+}
+
+
+.quees{
+
+color: rgb(255, 255, 255);
+text-transform: uppercase;
+padding: 5px 5px 5px 5px;
+height: 10px;
+
+
+}
+
+.quefuncion{
+
+color: rgb(255, 255, 255);
+text-transform: uppercase;
+padding: 5px 5px 5px 5px;
+height: 10px;
+
+
+}
+
+.esimportante{
+
+color: rgb(255, 255, 255);
+text-transform: uppercase;
+padding: 5px 5px 5px 5px;
+height: 10px;
+    
+}
+
+#collapseOne{
+
+background-color: $coloraside;
+text-align: center;
+
+}
+
+#collapseTwo{
+
+background-color: $coloraside;
+text-align: center;
+
+}
+
+#collapseThree{
+
+background-color: $coloraside;
+text-align: center;
+    
+}
+
+.card-header{
+
+padding: 0px;
+
+}
+
+.card-body{
+
+background-color: $colorfooter;
+
+}
+
+.card-title{
+
+color: white;
+
+}
+
+.card-text{
+
+color: white;
+    
+}
+
+.btn{
+
+background-color: $colorlinkedin;
 
 }

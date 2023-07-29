@@ -1,3 +1,4 @@
+@charset "UTF-8";
 * {
   margin: 0;
   padding: 0; }
@@ -12,12 +13,12 @@ h1 {
   height: 70px; }
 
 .container-fluid {
-  background-color: #61CDE9;
+  background-color: #003594;
   padding: 3px 3px 3px 3px;
   margin-top: -10px; }
 
 .navbar-brand {
-  color: black;
+  color: white;
   text-transform: uppercase;
   font-weight: bold; }
 
@@ -31,5 +32,83 @@ h1 {
   align-items: center; }
 
 .nav-link {
-  color: black;
+  color: #f6f6f6;
   text-transform: lowercase; }
+
+.nav_presentacion {
+  background-color: #753BBD;
+  border-radius: 40px;
+  padding: 7px;
+  margin-bottom: 5px;
+  box-shadow: 2px 0px 4px #ffffff; }
+
+.nav_fotografía {
+  background-color: #753BBD;
+  border-radius: 40px;
+  padding: 7px;
+  margin-bottom: 5px;
+  box-shadow: 2px 0px 4px #ffffff; }
+
+.nav_video {
+  background-color: #753BBD;
+  border-radius: 40px;
+  padding: 7px;
+  margin-bottom: 5px;
+  box-shadow: 2px 0px 4px #ffffff; }
+
+.nav-contacto {
+  background-color: #753BBD;
+  border-radius: 40px;
+  padding: 7px;
+  box-shadow: 2px 0px 4px #ffffff; }
+
+.accordion-button {
+  background-color: #003594;
+  display: flex;
+  flex-direction: column;
+  align-items: center; }
+
+.quees {
+  color: white;
+  text-transform: uppercase;
+  padding: 5px 5px 5px 5px;
+  height: 10px; }
+
+.quefuncion {
+  color: white;
+  text-transform: uppercase;
+  padding: 5px 5px 5px 5px;
+  height: 10px; }
+
+.esimportante {
+  color: white;
+  text-transform: uppercase;
+  padding: 5px 5px 5px 5px;
+  height: 10px; }
+
+#collapseOne {
+  background-color: #DBAD60;
+  text-align: center; }
+
+#collapseTwo {
+  background-color: #DBAD60;
+  text-align: center; }
+
+#collapseThree {
+  background-color: #DBAD60;
+  text-align: center; }
+
+.card-header {
+  padding: 0px; }
+
+.card-body {
+  background-color: #753BBD; }
+
+.card-title {
+  color: white; }
+
+.card-text {
+  color: white; }
+
+.btn {
+  background-color: #0A66C2; }
