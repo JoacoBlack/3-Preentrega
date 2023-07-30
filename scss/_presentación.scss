@@ -59,6 +59,22 @@ align-items: center;
     
     }
 
+.nav-item:hover{
+
+    background-color: $colormain;
+    font-weight: bold;
+    padding: 20px;
+
+}
+
+.nav-item:active{
+
+    background-color: $coloraside;
+    font-weight: bold;
+    padding: 20px;
+
+}
+
 .nav_contacto{
 
     background-color: $colorfooter;
@@ -69,6 +85,24 @@ align-items: center;
 
 
 }
+
+.nav_contacto:hover{
+
+    background-color: $colormain;
+    font-weight: bold;
+    padding: 20px;
+
+}
+
+.nav_contacto:active{
+
+    background-color: $coloraside;
+    font-weight: bold;
+    padding: 20px;
+    
+}
+
+
 
 .quiensoy{
 
