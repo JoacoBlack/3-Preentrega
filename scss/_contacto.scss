@@ -1,0 +1,54 @@
+*{
+
+margin: 0;
+padding: 0;
+
+}
+
+.formulario{
+
+background-color: $colormain;
+color: black;
+padding:5px 5px 5px 5px;
+
+}
+
+#nombre_apellido{
+
+background-color: bisque;
+font-weight: initial;
+margin-left: 10px;
+margin-top: 5px;
+}
+
+#numero_celular{
+
+background-color: bisque;
+font-weight: initial;
+margin-left: 10px;
+margin-top: 5px;
+
+    
+}
+
+#mensaje{
+
+background-color: bisque;
+font-weight: initial;
+margin-left: 10px;
+margin-top: 5px;
+
+
+}
+
+.enviar{
+
+background-color: $colormain;
+margin-top: 5px;
+margin-left: 168px;
+color: $colorfooter;
+font-weight: bold;
+border-radius: 10px;
+padding: 5px 5px 5px 5px
+
+}
