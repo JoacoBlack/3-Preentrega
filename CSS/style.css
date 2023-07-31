@@ -9,6 +9,7 @@ h1 {
   text-transform: uppercase;
   text-align: center;
   font-weight: bold;
+  font-family: "Federica";
   padding: 18px 10px 10px 18px;
   height: 70px; }
 
@@ -20,6 +21,7 @@ h1 {
 .navbar-brand {
   color: white;
   text-transform: uppercase;
+  font-family: "Federica";
   font-weight: bold; }
 
 .navbar-toggler {
@@ -73,22 +75,38 @@ h1 {
   color: white;
   text-transform: uppercase;
   padding: 5px 5px 5px 5px;
-  height: 10px; }
+  height: 10px;
+  font-family: "Caprasimo"; }
+
+.quiensoy:hover {
+  padding: 20px; }
 
 .conocimientos {
   color: white;
   text-transform: uppercase;
   padding: 5px 5px 5px 5px;
-  height: 10px; }
+  height: 10px;
+  font-family: "Caprasimo"; }
+
+.conocimientos:hover {
+  padding: 20px; }
 
 .experiencia {
   color: white;
   text-transform: uppercase;
   padding: 5px 5px 5px 5px;
-  height: 10px; }
+  height: 10px;
+  font-family: "Caprasimo"; }
+
+.experiencia:hover {
+  padding: 20px; }
 
 .accordion-body {
-  background-color: #61CDE9; }
+  background-color: #61CDE9;
+  font-family: "Anita"; }
+
+.accordion-button::after {
+  background-color: #753BBD; }
 
 .fondoimagenperfil {
   background-color: #DBAD60;
@@ -167,11 +185,13 @@ h1 {
 .comunidad {
   background-color: #61CDE9;
   font-weight: bold;
-  padding: 5px; }
+  padding: 5px;
+  font-family: "Anita"; }
 
 .salud {
   background-color: #61CDE9;
   font-weight: bold;
+  font-family: "Anita";
   padding: 5px;
   margin-top: 5px; }
 
@@ -307,11 +327,13 @@ h1 {
 .institucionales {
   background-color: #61CDE9;
   font-weight: bold;
+  font-family: "Anita";
   padding: 5px; }
 
 .animaciones {
   background-color: #61CDE9;
   font-weight: bold;
+  font-family: "Anita";
   padding: 5px; }
 
 .fondoinstitucional {
@@ -335,6 +357,9 @@ h1 {
   padding: 5px;
   border-radius: 20px; }
 
+.botonyoutube:hover {
+  padding: 10px; }
+
 * {
   margin: 0;
   padding: 0; }
@@ -342,7 +367,11 @@ h1 {
 .formulario {
   background-color: #61CDE9;
   color: black;
-  padding: 5px 5px 5px 5px; }
+  padding: 5px 5px 5px 5px;
+  font-family: "Caprasimo"; }
+
+.siquieres {
+  font-family: "Caprasimo"; }
 
 #nombre_apellido {
   background-color: bisque;
@@ -350,17 +379,29 @@ h1 {
   margin-left: 10px;
   margin-top: 5px; }
 
+#nombre_apellido:active {
+  padding: 10px;
+  background-color: #61CDE9; }
+
 #numero_celular {
   background-color: bisque;
   font-weight: initial;
   margin-left: 10px;
   margin-top: 5px; }
 
+#numero_celular:active {
+  padding: 10px;
+  background-color: #61CDE9; }
+
 #mensaje {
   background-color: bisque;
   font-weight: initial;
   margin-left: 10px;
   margin-top: 5px; }
+
+#mensaje:active {
+  padding: 10px;
+  background-color: #61CDE9; }
 
 .enviar {
   background-color: #61CDE9;
@@ -371,9 +412,24 @@ h1 {
   border-radius: 10px;
   padding: 5px 5px 5px 5px; }
 
+.enviar:hover {
+  padding: 15px; }
+
 * {
   margin: 0;
   padding: 0; }
+
+@font-face {
+  font-family: "Federica";
+  src: url(../Resources/Fonts/FrederickatheGreat-Regular.ttf); }
+
+@font-face {
+  font-family: "Anita";
+  src: url(../Resources/Fonts/AnnieUseYourTelescope-Regular.ttf); }
+
+@font-face {
+  font-family: "Caprasimo";
+  src: url(../Resources/Fonts/Caprasimo-Regular.ttf); }
 
 h1 {
   background-color: #003594;
@@ -381,6 +437,7 @@ h1 {
   text-transform: uppercase;
   text-align: center;
   font-weight: bold;
+  font-family: "Federica";
   padding: 18px 10px 10px 18px;
   height: 70px; }
 
@@ -494,31 +551,37 @@ h1 {
   color: white;
   text-transform: uppercase;
   padding: 5px 5px 5px 5px;
-  height: 10px; }
+  height: 10px;
+  font-family: "Caprasimo"; }
 
 .quefuncion {
   color: white;
   text-transform: uppercase;
   padding: 5px 5px 5px 5px;
-  height: 10px; }
+  height: 10px;
+  font-family: "Caprasimo"; }
 
 .esimportante {
   color: white;
   text-transform: uppercase;
   padding: 5px 5px 5px 5px;
-  height: 10px; }
+  height: 10px;
+  font-family: "Caprasimo"; }
 
 #collapseOne {
   background-color: #61CDE9;
-  text-align: center; }
+  text-align: center;
+  font-family: "Anita"; }
 
 #collapseTwo {
   background-color: #61CDE9;
-  text-align: center; }
+  text-align: center;
+  font-family: "Anita"; }
 
 #collapseThree {
   background-color: #61CDE9;
-  text-align: center; }
+  text-align: center;
+  font-family: "Anita"; }
 
 .card-header {
   padding: 0px; }
@@ -530,7 +593,11 @@ h1 {
   color: white; }
 
 .card-text {
-  color: white; }
+  color: white;
+  font-family: "Caprasimo"; }
 
 .btn {
   background-color: #0A66C2; }
+
+.btn:active {
+  padding: 10px; }

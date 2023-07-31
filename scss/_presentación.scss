@@ -13,6 +13,7 @@ h1{
     text-transform: uppercase;
     text-align: center;
     font-weight: bold;
+    font-family: "Federica";
     padding: 18px 10px 10px 18px;
     height: 70px;
     
@@ -30,6 +31,7 @@ margin-top: -10px;
 
 color:rgb(255, 255, 255);
 text-transform: uppercase;
+font-family: "Federica";
 font-weight: bold;
             
 }
@@ -117,9 +119,19 @@ align-items: center;
     text-transform: uppercase;
     padding: 5px 5px 5px 5px;
     height: 10px;
+    font-family: "Caprasimo";
     
 
 }
+
+.quiensoy:hover{
+
+padding: 20px;
+
+}
+
+
+
 
 .conocimientos{
 
@@ -127,9 +139,17 @@ align-items: center;
     text-transform: uppercase;
     padding: 5px 5px 5px 5px;
     height: 10px;
-
+    font-family: "Caprasimo";
 
 }
+
+.conocimientos:hover{
+
+padding: 20px;
+}
+
+
+
 
 .experiencia{
 
@@ -137,14 +157,35 @@ align-items: center;
     text-transform: uppercase;
     padding: 5px 5px 5px 5px;
     height: 10px;
+    font-family: "Caprasimo";
 
 }
+
+.experiencia:hover{
+
+padding: 20px;
+
+}
+
+
 
 .accordion-body{
 
 background-color: $colormain;
+font-family: "Anita";
 
 }
+
+.accordion-button::after{
+
+background-color: $colorfooter;
+
+
+}
+
+
+
+
 
 
 .fondoimagenperfil{
